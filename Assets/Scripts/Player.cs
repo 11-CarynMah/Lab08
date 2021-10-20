@@ -19,14 +19,14 @@ public class Player : MonoBehaviour
 
         transform.position = transform.position + new Vector3(0 , verticalInput * speed * Time.deltaTime, 0);
 
-        if (transform.position.y < -3.5)
+        if (transform.position.y < -3)
         {
-            transform.position = new Vector3(transform.position.x, -3.5f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, -3f, transform.position.z);
         }
 
-        else if (transform.position.y > 5.5)
+        else if (transform.position.y > 5)
         {
-            transform.position = new Vector3(transform.position.x, 5.5f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, 5f, transform.position.z);
         }
       
 

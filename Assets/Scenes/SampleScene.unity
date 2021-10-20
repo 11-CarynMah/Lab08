@@ -136,12 +136,12 @@ PrefabInstance:
     - target: {fileID: 1531784891098573355, guid: 906a1ca3fee284ecd8ab531ca4dcd14c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.097576
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1531784891098573355, guid: 906a1ca3fee284ecd8ab531ca4dcd14c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.04771193
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1531784891098573355, guid: 906a1ca3fee284ecd8ab531ca4dcd14c,
         type: 3}
@@ -187,6 +187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310134816045737316, guid: 906a1ca3fee284ecd8ab531ca4dcd14c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 906a1ca3fee284ecd8ab531ca4dcd14c, type: 3}
@@ -389,12 +394,17 @@ PrefabInstance:
     - target: {fileID: 1463787809973413828, guid: fb24a85713fb4468d9863edb28f8915e,
         type: 3}
       propertyPath: m_FontData.m_Alignment
-      value: 3
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463787809973413828, guid: fb24a85713fb4468d9863edb28f8915e,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Score: 0'
       objectReference: {fileID: 0}
     - target: {fileID: 1463787809973413829, guid: fb24a85713fb4468d9863edb28f8915e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -177
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1463787809973413829, guid: fb24a85713fb4468d9863edb28f8915e,
         type: 3}
@@ -404,7 +414,7 @@ PrefabInstance:
     - target: {fileID: 1463787809973413829, guid: fb24a85713fb4468d9863edb28f8915e,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 150
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1463787809973413829, guid: fb24a85713fb4468d9863edb28f8915e,
         type: 3}
@@ -606,5 +616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 560b66c2247fc472885da0a8185c8c52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnObject: {fileID: 3441854745376264150, guid: 0cebb89d33e7e4f4895f29634533d760,
-    type: 3}
+  cubeObjects:
+  - {fileID: 3441854745376264150, guid: 0cebb89d33e7e4f4895f29634533d760, type: 3}
+  - {fileID: 2149304043724922301, guid: 2c87c383a3e8d429f989c38cfe628f7c, type: 3}
+  - {fileID: 5008605268917956769, guid: d108b6e37fb0a480db1125d0d92d091a, type: 3}
